@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+.env
+
+cache/
+
+*.pkl
+
+*.npy
+
+.vscode/
+
+.idea/
+data/candidates.jsonl
