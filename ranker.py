@@ -65,10 +65,12 @@ def rank_candidates(jd):
             semantic * 60
         )
 
-        reasoning = generate_reasoning(
-            candidate,
-            keywords
-        )
+        reasoning = (
+    generate_reasoning(candidate, keywords)
+    + f" Feature Score: {feature}. "
+    + f"Semantic Match: {round(semantic*100,1)}%."
+)
+        
 
         final_results.append(
 

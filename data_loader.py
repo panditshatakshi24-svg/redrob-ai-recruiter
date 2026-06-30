@@ -23,7 +23,7 @@ def download_dataset():
     print("Dataset downloaded successfully.")
 
 
-def load_candidates(limit=10000):
+def load_candidates(limit=100000):
 
     if not os.path.exists(DATASET_PATH):
         download_dataset()
