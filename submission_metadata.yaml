@@ -1,0 +1,26 @@
+team_name: "Shatakshi Pandit"
+primary_contact:
+  name: "Shatakshi Pandit"
+  email: "panditshatakshi24@gmail.com"
+  phone: "9175167251"
+
+github_repository: "https://github.com/panditshatakshi24-svg/redrob-ai-recruiter"
+
+sandbox_url: "https://redrob-ai-recruiter-akcvdtlqpvj6cso32bp3lq.streamlit.app/"
+
+ai_tools_used:
+  - ChatGPT
+
+compute_environment: "Windows 11, Python 3.12, CPU, 16GB RAM"
+
+team_members:
+  - name: "Shatakshi Pandit"
+    email: "panditshatakshi24@gmail.com"
+
+methodology_summary: >
+  Built a hybrid AI candidate ranking system combining feature engineering
+  and semantic search using Sentence Transformers (BAAI/bge-small-en-v1.5).
+  Candidates are first ranked using handcrafted feature scores and then
+  semantically re-ranked using cosine similarity. The system produces the
+  top 100 ranked candidates with explainable reasoning and runs entirely
+  on CPU without external API calls during ranking.

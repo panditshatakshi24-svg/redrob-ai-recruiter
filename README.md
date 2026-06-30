@@ -1,102 +1,44 @@
-# 🤖 AI Recruiter
+# 🤖 Hybrid AI Candidate Ranking System
 
-A Hybrid AI Candidate Ranking Engine that combines Feature Engineering and Semantic Search to intelligently rank candidates based on a Job Description.
+An AI-powered candidate ranking system built for the Redrob India Data & AI Challenge.
 
----
+## Features
 
-## 🚀 Features
-
-- Hybrid Ranking Pipeline
-- Semantic Search using Sentence Transformers
+- Hybrid AI Ranking
 - Feature Engineering
-- Explainable AI Candidate Reasoning
+- Semantic Search
+- Explainable AI
 - Streamlit Dashboard
-- CSV Submission Generator
+- CSV Export
 
----
-
-## 🏗 Architecture
-
-Job Description
-
-↓
-
-Keyword Extraction
-
-↓
-
-Feature Engineering
-
-↓
-
-Top 300 Retrieval
-
-↓
-
-Sentence Transformer
-
-↓
-
-Semantic Similarity
-
-↓
-
-Top 100 Ranking
-
-↓
-
-Explainable AI
-
----
-
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
-- Streamlit
 - Sentence Transformers (BAAI/bge-small-en-v1.5)
-- Scikit-Learn
+- Scikit-learn
 - Pandas
-- NumPy
+- Streamlit
 
----
+## Live Demo
 
-## 📊 Features
+https://your-streamlit-app.streamlit.app
 
-- Feature-based Candidate Ranking
-- Semantic Candidate Matching
-- Dynamic Role Weighting
-- Experience Scoring
-- Production ML Detection
-- Download Submission CSV
+## Architecture
 
----
+Job Description
+↓
+Keyword Extraction
+↓
+Feature Engineering
+↓
+Top 300 Retrieval
+↓
+Semantic Re-ranking
+↓
+Top 100 Candidates
 
-## ▶ Run
+## Installation
 
-```bash
 pip install -r requirements.txt
 
 streamlit run app.py
-```
-
----
-
-## 📂 Dataset
-
-Place
-
-```
-candidates.jsonl
-```
-
-inside
-
-```
-data/
-```
-
----
-
-## 👨‍💻 Author
-
-Shatakshi
